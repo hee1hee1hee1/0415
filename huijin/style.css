@@ -1,0 +1,45 @@
+#grid {
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+  }
+  
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+    #grid {
+      display: block;
+    }
+    #grid ol {
+      border-right: none;
+    }
+    h1 {
+      border-bottom: none;
+      font-size: 28px
+    }
+  }
+
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  #grid {
+      display: block;
+    }
+  #grid ol {
+      border-right: none;
+    }
+  h1 {
+      border-bottom: none;
+      font-size: 30px
+    }
+  
